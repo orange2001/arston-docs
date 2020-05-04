@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+
+<html lang="English">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moderation &#8212; Arston beta documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Utility" href="utility.html" />
+    <link rel="prev" title="Fun" href="fun.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="moderation">
+<h1><strong>Moderation</strong><a class="headerlink" href="#moderation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="kick">
+<h2><strong>kick</strong><a class="headerlink" href="#kick" title="Permalink to this headline">¶</a></h2>
+<p>Yeets a member out from the server, or in <em>better</em> words, kicks a member out.</p>
+<dl class="simple">
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Kick members</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">kick</span> <span class="pre">&#64;user</span> <span class="pre">reason*</span></code></dt><dd><ul class="simple">
+<li><p>*Optional</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="ban">
+<h2><strong>ban</strong><a class="headerlink" href="#ban" title="Permalink to this headline">¶</a></h2>
+<p>Wave that ban hammer over anyone who's breaking rules or <em>if you just don't like them</em>.</p>
+<dl class="simple">
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Ban members</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">ban</span> <span class="pre">&#64;user</span> <span class="pre">reason*</span></code></dt><dd><ul class="simple">
+<li><p>*Optional</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="setmodlog">
+<h2><strong>setmodlog</strong><a class="headerlink" href="#setmodlog" title="Permalink to this headline">¶</a></h2>
+<p><strong>Aliases: setmod</strong></p>
+<p>Sets the logging channel of the server.</p>
+<dl class="simple">
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Manage Guild</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">setmod</span> <span class="pre">#channel*</span></code></dt><dd><ul class="simple">
+<li><p>* Required</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="setwelcomechannel">
+<h2><strong>setwelcomechannel</strong><a class="headerlink" href="#setwelcomechannel" title="Permalink to this headline">¶</a></h2>
+<p><strong>Aliases: setwc</strong></p>
+<p>Sets the welcome channel for new users.</p>
+<dl class="simple">
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Manage Guild</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">setwc</span> <span class="pre">#channel*</span></code></dt><dd><ul class="simple">
+<li><p>* Required</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="setannounce">
+<h2><strong>setannounce</strong><a class="headerlink" href="#setannounce" title="Permalink to this headline">¶</a></h2>
+<p>Sets the announcement channel for the server.</p>
+<dl class="simple">
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Manage Guild</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">setannounce</span> <span class="pre">#channel*</span></code></dt><dd><ul class="simple">
+<li><p>* Required</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="announce">
+<h2><strong>announce</strong><a class="headerlink" href="#announce" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Make the bot send a server wide announcement in the announcement channel.</dt><dd><ul class="simple">
+<li><p>Command can be used in any channel</p></li>
+</ul>
+</dd>
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Manage Guild</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">announce</span> <span class="pre">&#64;everyone*</span> <span class="pre">hello</span> <span class="pre">there!</span></code></dt><dd><ul class="simple">
+<li><p>* Optional</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="purge">
+<h2><strong>purge</strong><a class="headerlink" href="#purge" title="Permalink to this headline">¶</a></h2>
+<p>Purges messages from a channel.</p>
+<p><strong>Aliases: apoc, apocalypse</strong></p>
+<dl class="simple">
+<dt><strong>Permissions required:</strong></dt><dd><ul class="simple">
+<li><p>Manage Messages</p></li>
+</ul>
+</dd>
+<dt><strong>Usage:</strong></dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">purge</span> <span class="pre">limit*</span></code></dt><dd><ul class="simple">
+<li><p>*Required</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Arston</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="fun.html"><strong>Fun</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Moderation</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#kick"><strong>kick</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ban"><strong>ban</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setmodlog"><strong>setmodlog</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setwelcomechannel"><strong>setwelcomechannel</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setannounce"><strong>setannounce</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#announce"><strong>announce</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#purge"><strong>purge</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utility.html"><strong>Utility</strong></a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="fun.html" title="previous chapter"><strong>Fun</strong></a></li>
+      <li>Next: <a href="utility.html" title="next chapter"><strong>Utility</strong></a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Orange#0069.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/moderation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
